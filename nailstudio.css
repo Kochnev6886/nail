@@ -1,0 +1,308 @@
+body {
+    background: #f1f1f1 url(files/white-leather.png) repeat;  /*цвет фона, фон*/
+    font-family: Verdana;  /*шрифт текста на сайте*/    
+} 
+.header {
+    background-color: none;
+    margin-top: 10px;
+    width: 100%;
+}
+ul.header-ul {
+    display: flex;
+    padding: 0px;
+    justify-content: center;
+}
+li.header-li {
+    list-style: none;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+}
+li.header-li a {
+    text-decoration: none; /*подчеркивание ссылок*/
+    font-size: 17px; /*размер шрифта пунктов меню*/
+    color: black; /*цвет текста пунктов меню*/
+}
+li.header-li a .width {
+    width: 40px;
+}
+.logo {
+    border-radius: 50%;
+    width: 90px;
+}
+.menu {
+    background-color: rgba(131, 129, 129, 0.055); /*цвет фона меню*/
+    margin-top: 25px; /*отступ между пунктами меню*/
+    width: 64.5%; /*высота строки*/
+    margin-left: 18%;
+}
+ul.menu-ul {
+    display: flex; /*функция меню*/
+    padding: 0px; /*отступ сверху*/
+    justify-content: center; /*центрирование пунктов меню*/
+}
+li.menu-li {
+    list-style: none;
+    padding: 10px;
+}
+li.menu-li:hover {
+    background-color: rgba(212, 214, 211, 0.493); /*цвет наведенного пункта меню*/
+    transition: 800ms; /*задержка изменения цвета пункта меню при наведении*/
+}
+li.menu-li a {
+    text-decoration: none; /*подчеркивание ссылок*/
+    font-size: 17px; /*размер шрифта пунктов меню*/
+    color: black; /*цвет текста пунктов меню*/
+}
+li.menu-li a i {
+    margin-right: 10px; /*отступы между иконками*/
+}
+.footer {
+    padding-top: 30px;
+    background-color: none;
+    margin-top: 10px;
+    width: 100%;
+    left: 0; bottom: 0;
+}
+ul.footer-ul {
+    display: flex;
+    padding: 0px;
+    justify-content: center;
+}
+li.footer-li {
+    list-style: none;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+}
+li.footer-li a {
+    text-decoration: none; /*убираем подчеркивание у ссылок*/
+    font-size: 17px; /*размер шрифта пунктов меню*/
+    color: black; /*цвет текста пунктов меню*/
+}
+.center {
+    margin-left: 27%;
+    margin-right: 25%;
+    margin-top: 2%;
+}
+div.imags {
+    display: flex;
+    justify-content: center;
+}
+.size {
+    width: 290px; 
+    text-align: center;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.on-img {
+    text-align: center;
+}
+.tw-img {
+    text-align: center;
+}
+.th-img {
+    text-align: center;
+}
+.fo-img {
+    text-align: center;
+}
+.m-img {
+    padding-bottom: 20%;
+    margin-left: 10px;
+}
+.p-img {
+    padding-bottom: 16%;
+    margin-left: 10px;
+}
+.left-img {
+    float: left; /*положение изображения слева*/
+    margin: 0px 20px 10px 10px; /*отступы вокруг изображения*/
+    width: 400px;
+}
+.right-img {
+    float: left;
+    margin: 0px 20px 10px 10px; /*отступы вокруг изображения*/
+    width: 400px;
+}
+.one {
+    font-weight: 600;
+}
+.two {
+    font-weight: 600;
+}
+h3.n1 {
+    text-align: center;
+}
+p.n1 {
+    text-align: center;
+}
+h3.n2 {
+    text-align: center;
+}
+p.n2 {
+    text-align: center;
+}
+h3.n3 {
+    text-align: center;
+}
+p.n3 {
+    text-align: center;
+}
+h3.n4 {
+    text-align: center;
+}
+p.n4 {
+    text-align: center;
+}
+h3.padding {
+    padding-left: 40px;
+}
+#top {
+    width: 500px;
+    text-align: left;
+    padding-left: 10px;
+}
+#price {
+    width: 100px;
+    text-align: center;
+}
+table {
+    border: 1px solid rgba(189, 187, 187, 0.705);
+    border-radius: 5px;
+    margin-left: 15px;
+}
+.img-gallery {
+    width: 300px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+p.contacts-phone a {
+    text-decoration: none; /*убираем подчеркивание у ссылки*/
+    font-size: 17px; /*размер шрифта*/
+    color: black; /*цвет текста*/
+}
+p.contacts-instagram a {
+    text-decoration: none; /*убираем подчеркивание у ссылки*/
+    font-size: 17px; /*размер шрифта*/
+    color: black; /*цвет текста*/    
+}
+.padd {
+    padding-left: 12px;
+}
+p.one a {
+    text-decoration: none; /*убираем подчеркивание у ссылки*/
+    font-size: 17px; /*размер шрифта*/
+    color: black; /*цвет текста*/     
+}
+p.two a {
+    padding-left: 50px;
+    text-decoration: none; /*убираем подчеркивание у ссылки*/
+    font-size: 17px; /*размер шрифта*/
+    color: black; /*цвет текста*/     
+}
+.instagram-gallery a {
+    text-decoration: none; /*убираем подчеркивание у ссылки*/
+    font-size: 17px; /*размер шрифта*/
+    color: black; /*цвет текста*/  
+}
+li.footer-li a .width {
+    width: 40px; /*размер изображения в подвале (телефон, инстаграм)*/
+}
+.instagram-gallery a .width {
+    width: 40px; /*размер изображения ссылки инстаграм*/   
+}
+p.contacts-phone a .width {
+    width: 40px; /*размер изображения ссылки инстаграм*/  
+}
+p.contacts-instagram a .width {
+    width: 40px; /*размер изображения ссылки инстаграм*/  
+}
+strong {
+    padding-left: 10px;
+}
+div.maps {
+    border: 2px solid rgba(189, 187, 187, 0.705);
+    margin-left: 25px;
+    margin-bottom: 25px;
+    width: 600px;
+    height: 450px;
+}
+.left-jpg {
+    float: left;
+    margin: 0px 40px 10px 10px; /*отступы вокруг изображения*/
+    width: 400px;
+}
+.right-jpg {
+    float: right;
+    margin: 0px 10px 20px 10px; /*отступы вокруг изображения*/
+    width: 400px;
+}
+div.jpg h3.padding-1 {
+    margin-top: 10px;
+    padding-left: 690px;
+}
+div.jpg h3.padding-2 {
+    margin-top: 210px;
+    padding-left: 230px;
+}
+div.jpg h3.padding-3 {
+    margin-top: 250px;
+    padding-left: 650px;
+}
+div.jpg h3.padding-4 {
+    margin-top: 250px;
+    padding-left: 170px;
+}
+div.jpg h3.padding-5 {
+    margin-top: 285px;
+    padding-left: 610px;
+}
+div.jpg {
+    padding-left: 90px;
+    padding-right: 90px;
+}
+p.n-left {
+    padding-top: 10px;
+    text-align: justify;
+    width: 1110px;
+}
+p.n-right {
+    padding-top: 10px;
+    text-align: justify;
+    width: 650px;
+    padding-left: 50px;
+}
+p.n-left-bottom {
+    padding-top: 10px;
+    padding-bottom: 200px;
+    text-align: justify;
+    width: 1110px;
+}
+div.contacts-send {
+    display: flex;
+    justify-content: left;    
+}
+div.send {
+    padding-top: 20px;
+    padding-left: 160px;
+}
+div.gallery {
+    padding-top: 15px;
+}
+div.index {
+    padding-top: 50px;
+}
+div.jpg h3.padding-r {
+    margin-top: 20px;
+    padding-left: 700px;
+}
+div.jpg h3.padding-l {
+    margin-top: 40px;
+    padding-left: 250px;
+}
+form {
+    text-align: left;
+}
