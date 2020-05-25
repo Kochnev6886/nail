@@ -1,15 +1,15 @@
 body {
     background: #f1f1f1 url(white-leather.png) repeat;  /*цвет фона, фон*/
-    font-family: Verdana;  /*шрифт текста на сайте*/    
+    font-family: Verdana;  /*шрифт текста на сайте*/  
+    max-width: 1400px;  
 } 
 .header {
     background-color: none;
     margin-top: 10px;
-    width: 100%;
 }
 ul.header-ul {
     display: flex;
-    padding: 0px;
+    padding: 10px;
     justify-content: center;
 }
 li.header-li {
@@ -33,13 +33,10 @@ li.header-li a .width {
 }
 .menu {
     background-color: rgba(131, 129, 129, 0.055); /*цвет фона меню*/
-    margin-top: 25px; /*отступ между пунктами меню*/
-    width: 64.5%; /*высота строки*/
-    margin-left: 18%;
+    width: 100%; 
 }
 ul.menu-ul {
     display: flex; /*функция меню*/
-    padding: 0px; /*отступ сверху*/
     justify-content: center; /*центрирование пунктов меню*/
 }
 li.menu-li {
@@ -67,7 +64,6 @@ li.menu-li a i {
 }
 ul.footer-ul {
     display: flex;
-    padding: 0px;
     justify-content: center;
 }
 li.footer-li {
@@ -83,9 +79,7 @@ li.footer-li a {
     color: black; /*цвет текста пунктов меню*/
 }
 .center {
-    margin-left: 27%;
-    margin-right: 25%;
-    margin-top: 2%;
+    text-align: center;
 }
 div.imags {
     display: flex;
