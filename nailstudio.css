@@ -15,6 +15,8 @@ ul.header-ul {
 li.header-li {
     list-style: none;
     padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
     text-decoration: none;
     font-size: 17px;
     color: black;
@@ -42,9 +44,11 @@ ul.menu-ul {
 li.menu-li {
     list-style: none;
     padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 li.menu-li:hover {
-    background-color: rgba(212, 214, 211, 0.493); /*цвет наведенного пункта меню*/
+    background-color: rgba(212, 214, 211, 0.589); /*цвет наведенного пункта меню*/
     transition: 800ms; /*задержка изменения цвета пункта меню при наведении*/
 }
 li.menu-li a {
@@ -52,13 +56,8 @@ li.menu-li a {
     font-size: 17px; /*размер шрифта пунктов меню*/
     color: black; /*цвет текста пунктов меню*/
 }
-li.menu-li a i {
-    margin-right: 10px; /*отступы между иконками*/
-}
 .footer {
-    padding-top: 30px;
     background-color: none;
-    margin-top: 10px;
     width: 100%;
     left: 0; bottom: 0;
 }
@@ -69,6 +68,8 @@ ul.footer-ul {
 li.footer-li {
     list-style: none;
     padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
     text-decoration: none;
     font-size: 17px;
     color: black;
